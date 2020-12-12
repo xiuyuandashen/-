@@ -1,0 +1,10 @@
+github:
+  bucket:
+    # 配置仓库所属的用户名（如果是自己创建的，就是自己的用户名）
+    user: "xiuyuandashen"
+    # 配置仓库名称
+    repository: "figureBed"
+    # 配置自己的acccessToken
+    access-token: "442d9ce36626cb9cbcb7add511983a302fcd9fa6"
+    url: "https://cdn.jsdelivr.net/gh/${github.bucket.user}/${github.bucket.repository}/"
+    api: "https://api.github.com/repos/${github.bucket.user}/${github.bucket.repository}/contents/"
